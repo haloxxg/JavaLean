@@ -25,7 +25,7 @@ public class SerializeDemo
       try
       {
          FileOutputStream fileOut =
-         new FileOutputStream("./employee.ser");
+         new FileOutputStream("res/employee.txt");
          ObjectOutputStream out = new ObjectOutputStream(fileOut);
          out.writeObject(e);
          out.close();
