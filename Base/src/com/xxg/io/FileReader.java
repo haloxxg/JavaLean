@@ -6,7 +6,7 @@ public class FileReader {
 	public static void main(String args[]) throws IOException{
 		File f = new File("res/test.txt");
 		InputStream in=new FileInputStream(f);
-		byte[] b=new byte[1024];
+		byte[] b=new byte[(int)f.length()];
 		int len=in.read(b);
 		in.close();
 		System.out.println(FileReader.class.getResource(""));

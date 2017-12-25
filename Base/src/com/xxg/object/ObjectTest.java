@@ -1,4 +1,5 @@
-public class ObjectTest implements Cloneable{ 
+package com.xxg.object;
+public class ObjectTest implements Cloneable{
 	Object o1 = new Object();
 
 	// @Override
