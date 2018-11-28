@@ -9,5 +9,9 @@
         <module name="Trie" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BasicClass" target="1.5" />
+      <module name="Trie" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
